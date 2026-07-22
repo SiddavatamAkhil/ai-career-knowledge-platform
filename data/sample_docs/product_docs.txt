@@ -1,0 +1,40 @@
+Aurora Robotics — AR-200 Warehouse Robot Technical Overview
+
+1. Hardware Specifications
+The AR-200 unit weighs 42 kg and has a maximum payload capacity of 60 kg.
+Battery life is rated at 10 hours of continuous operation on a single charge,
+with a fast-charge option that restores 80% capacity in 45 minutes. The unit
+navigates using a combination of LiDAR, depth cameras, and wheel odometry.
+
+2. Software Architecture
+The AR-200 runs a ROS2-based navigation stack. Path planning uses a hybrid
+A* algorithm combined with a dynamic window approach for real-time obstacle
+avoidance. Fleet coordination across multiple robots is handled by a central
+fleet manager service that assigns tasks using a greedy nearest-available-robot
+heuristic, with periodic rebalancing every 90 seconds.
+
+3. Safety Features
+The AR-200 is certified to ANSI/RIA R15.08 safety standards for mobile
+industrial robots. It includes emergency stop buttons on all four sides,
+a 360-degree obstacle detection radius of 1.5 meters, and automatic
+speed reduction to 0.3 m/s when operating within 2 meters of a detected
+human worker.
+
+4. Deployment and Integration
+Customers typically deploy an initial pilot fleet of 3-5 units before scaling
+to full warehouse coverage. Integration with existing warehouse management
+systems (WMS) is done via a REST API and supports SAP EWM, Manhattan Active,
+and Blue Yonder out of the box. Average time-to-first-pick after installation
+is 2 weeks, including staff training.
+
+5. Maintenance
+Scheduled maintenance is recommended every 500 operating hours and includes
+wheel inspection, sensor calibration, and battery health diagnostics. The
+AR-200's modular design allows most components, including the battery pack
+and drive motors, to be swapped in under 15 minutes without specialized tools.
+
+6. Pricing Model
+Aurora Robotics offers the AR-200 under a Robot-as-a-Service (RaaS) model,
+starting at $2,400 per robot per month, which includes hardware, software
+updates, and maintenance. Customers may also purchase units outright for
+approximately $85,000 per unit.

@@ -1,0 +1,36 @@
+Aurora Robotics Employee Handbook
+
+1. Company Overview
+Aurora Robotics was founded in 2019 and builds autonomous warehouse robots
+for mid-size logistics companies. The company is headquartered in Austin,
+Texas, and has satellite engineering offices in Berlin and Bangalore.
+
+2. Leave Policy
+Full-time employees accrue 18 days of paid time off (PTO) per year, plus
+10 company holidays. PTO accrues monthly and can be carried over up to a
+maximum of 10 unused days into the following calendar year. Parental leave
+is 16 weeks fully paid for the primary caregiver and 8 weeks for the
+secondary caregiver.
+
+3. Remote Work Policy
+Employees may work remotely up to 3 days per week. Fully remote arrangements
+require director-level approval and are reviewed every 6 months. All remote
+employees must be available during core hours of 11am-4pm in their local
+time zone for team synchronization.
+
+4. Expense Reimbursement
+Employees can expense up to $75/month for home internet, and up to $50 per
+meal for approved business travel. Expense reports must be submitted within
+30 days of the purchase date through the internal Concur portal.
+
+5. Performance Review Cycle
+Aurora Robotics runs performance reviews twice a year, in April and October.
+Reviews include a self-assessment, manager assessment, and peer feedback
+from at least two colleagues. Promotion decisions are made following the
+October review cycle.
+
+6. Security Policy
+All employees must enable two-factor authentication on their company
+accounts within their first week. Laptops are encrypted by default using
+company-managed FileVault/BitLocker policies. Any lost or stolen device
+must be reported to IT within 2 hours of discovery.
